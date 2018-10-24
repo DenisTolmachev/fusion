@@ -1,0 +1,41 @@
+.container {
+  footer {
+    background-color: #343434;
+    padding-bottom: 120px;
+    .footer_wrap {
+      display: flex;
+      flex-direction: row;
+      max-width: 778px;
+      padding-top: 45px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      color: #ffffff;
+      .footer_project_img {
+        a {
+          display: block;
+          width: 45px;
+          height: 45px;
+          background-image: url("/img/fusion.png");
+        }
+      }
+      .office {
+        margin-left: 52px;
+        margin-right: 24px;
+        .title {
+          text-transform: uppercase;
+        }
+        .text {
+          color: #9e9e9e;
+          margin-top: 17px;
+          line-height: 1.95;
+        }
+        .social_icons {
+          display: flex;
+          justify-content: space-around;
+          margin-left: 4px;
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+}

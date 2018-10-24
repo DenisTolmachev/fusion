@@ -1,0 +1,132 @@
+.container {
+  .team {
+    background-color: #171717;
+    padding-bottom: 105px;
+    .team_wrap {
+      .block_name{
+        color: #f7ac53;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        p {
+          margin-top: 23px;
+        }
+        .line {
+          height: 125px;
+          width: 1px;
+          margin: 0 auto;
+          background-image: url("/img/line_1px.png");
+        }
+      }
+      .team_title {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Merriweather', serif;
+        font-size: 40px;
+        padding: 0 170px 0 170px;
+        line-height: 1.6;
+        margin-top: 26px;
+        letter-spacing: 0.3px;
+      }
+      .team_field {
+        margin-top: 97px;
+        .person {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          font-family: 'Open Sans', sans-serif;
+          .person_info, .person_id {
+            width: 25%;
+            border: 1px solid #1f1f1f;;
+          }
+          .person_info{
+            position: relative;
+            border-left: none;
+            border-top: none;
+            .person_id_vertical {
+              display: block;
+              float: left;
+              position: absolute;
+              top: 86px;
+              left: -62px;
+              transform: rotate(90deg);
+              .vertical_wrap {
+                display: flex;
+                align-items: center;
+                .team_photo_small {}
+                .vertical_id_field {
+                  margin-left: 17px;
+                  .team_name_vertical {
+                    color: #fdb85f;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                  }
+                  .team_position_vertical {
+                    color: #ffffff;
+                    font-size: 13px;
+                    margin-top: 11px;
+                  }
+                }
+              }
+            }
+            .person_id_vertical:before {
+              content: '';
+              position: absolute;
+              height: 67px;
+              width: 68px;
+              background-image: url("/img/person_info_corner_line.png");
+              transform: rotate(-90deg);
+              top: -8px;
+              left: -14px;
+            }
+            .person_info_text {
+              color: #ffffff;
+              font-size: 13px;
+              display: block;
+              width: 80%;
+              float: right;
+              padding: 0 11px 0 31px;
+              margin-top: 7px;
+              line-height: 1.95;
+            }
+          }
+          .person_id{
+            text-align: center;
+            padding-top: 49px;
+            padding-bottom: 88px;
+            .team_name {
+              color: #fdb85f;
+              font-size: 14px;
+              font-weight: 600;
+              text-transform: uppercase;
+              margin-top: 24px;
+            }
+            .team_position {
+              color: #ffffff;
+              font-size: 13px;
+              margin-top: 11px;
+            }
+          }
+          .top_block {
+            border-top: none;
+          }
+          .bottom_block {
+            border-bottom: none;
+          }
+          .person_id:last-child {
+            border-right: none;
+          }
+          .bottom_block:first-child {
+            border-left: none;
+          }
+          .bottom_block:last-child {
+            border-right: none;
+          }
+        }
+      }
+    }
+  }
+}

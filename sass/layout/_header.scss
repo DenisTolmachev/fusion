@@ -1,0 +1,110 @@
+.container {
+  .header {
+    background: url("/img/header_bg.png") center no-repeat;
+    background-size: cover;
+    position: relative;
+    .header_wrap {
+      padding-top: 274px;
+      padding-bottom: 40px;
+      position: relative;
+      z-index: 2;
+      .header_title {
+        max-width: 750px;
+        border: 1px solid rgba(143, 143, 143, .5);
+        color: #fff;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 55px;
+        padding: 35px 0 52px;
+        line-height: 1.7;
+        span {
+          color: #f7ac53;
+        }
+      }
+      .header_menu {
+        margin-top: 28px;
+        text-align: center;
+        ul {
+          li {
+            list-style-type: none;
+            display: inline;
+            a {
+              color: #fff;
+              text-transform: uppercase;
+              text-decoration: none;
+              font-family: 'Open Sans', sans-serif;
+              font-size: 13px;
+              padding: 0 8px 0 8px;
+            }
+            a:hover, :active {
+              color: #f7ac53;
+            }
+          }
+          li:not(:first-child):before {
+            content: " | ";
+            color: #f7ac53;
+            font-size: 11px;
+          }
+        }
+      }
+      .scroll_down {
+        .down_arrow {
+          display: block;
+          height: 8px;
+          width: 13px;
+          background-image: url("/img/arrow_down.png");
+          margin: 215px auto 0;
+        }
+      }
+      .header_nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 98px;
+        .fusion_icon {
+          a {
+            display: block;
+            width: 45px;
+            height: 45px;
+            background-image: url("/img/fusion.png");
+          }
+        }
+        .get_in_touch {
+          a {
+            color: #ffffff;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 14px;
+            margin-right: 24px;
+            font-family: 'Roboto', sans-serif;
+          }
+          a:after {
+            content: '';
+            position: absolute;
+            display: block;
+            height: 7px;
+            width: 11px;
+            background-image: url("/img/arrow_right.png");
+            right: 18px;
+            bottom: 60px;
+          }
+          a:hover, :active {
+            color: #f7ac53;
+          }
+        }
+      }
+    }
+  }
+  .header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+}

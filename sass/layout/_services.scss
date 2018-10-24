@@ -1,0 +1,84 @@
+.container {
+  .services {
+    background-color: #1f1f1f;
+    padding-bottom: 150px;
+    .services_wrap {
+      .block_name{
+        color: #f7ac53;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        p {
+          margin-top: 23px;
+        }
+        .line {
+          height: 125px;
+          width: 1px;
+          margin: 0 auto;
+          background-image: url("/img/line_1px.png");
+        }
+      }
+      .services_title {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Merriweather', serif;
+        font-size: 40px;
+        padding: 0 170px 0 170px;
+        line-height: 1.6;
+        margin-top: 26px;
+        letter-spacing: 0.3px;
+      }
+      .services_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: #ffffff;
+        .content {
+          width: 260px;
+          margin-top: 108px;
+          .strategy_icon {}
+          .branding_icon {}
+          .design_icon {}
+          .title {
+            font-family: 'Merriweather', serif;
+            font-size: 30px;
+            margin-top: 31px;
+          }
+          .text {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin-top: 20px;
+            padding: 0 16px 0 3px;
+            line-height: 1.95;
+          }
+          .details {
+            margin-top: 25px;
+            margin-left: 2px;
+            a {
+              color: #ffffff;
+              font-family: 'Open Sans', sans-serif;
+              font-size: 14px;
+              font-weight: 600;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+            a:after {
+              content: '';
+              display: inline-block;
+              height: 7px;
+              width: 11px;
+              background-image: url(/img/arrow_right.png);
+              margin-left: 10px;
+              margin-bottom: 2px;
+            }
+            a:hover, :active {
+              color: #f7ac53;
+            }
+          }
+        }
+      }
+    }
+  }
+}

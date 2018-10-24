@@ -1,0 +1,183 @@
+@media all and (max-width: 992px) {
+  .container .header .header_wrap {
+    padding-top: 94px;
+    .scroll_down .down_arrow {
+      margin: 47px auto 0;
+    }
+    .header_nav {
+      margin-top: 14px;
+    }
+  }
+  .container .portfolio {
+    padding: 80px 0 80px 0;
+    .portfolio_wrap .carousel .carousel-wrapper {
+      height: 470px;
+    }
+  }
+  .container .testimonials .testimonials_wrap .testimonials_title {
+    padding: 0 0 0 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .container .services .services_wrap .services_title {
+    padding: 0px 20px 0 20px;
+  }
+  .container .portfolio {
+    .portfolio_wrap .carousel .carousel-wrapper {
+      height: 354px;
+    }
+  }
+  .container .portfolio .portfolio_wrap .carousel .carousel-item .left_column .project_name {
+    font-size: 40px;
+  }
+  .container .portfolio .portfolio_wrap .carousel .carousel-item .right_column a {
+    font-size: 10px;
+  }
+  .container .testimonials .testimonials_wrap .logos {
+    margin-top: 52px;
+  }
+  .container .team .team_wrap .team_title {
+    padding: 0 0 0 0;
+  }
+  .container .team .team_wrap .team_field .person {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .team .team_wrap .team_field .person .person_info, .container .team .team_wrap .team_field .person .person_id {
+    width: 38%;
+  }
+  .container .team .team_wrap .team_field .person .person_info {
+    border-right: none;
+  }
+  .container .team .team_wrap .team_field .person .top_block {
+    border-right: none;
+    border-left: none;
+  }
+  .container .team .team_wrap .team_field .person .bottom_block {
+    border-right: none;
+    border-left: none;
+  }
+  .container .contacts .contacts_wrap .contacts_title {
+    padding: 0 0 0 0;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .container .contacts .contacts_wrap .contact_form .data_field {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+  }
+  .container .contacts .contacts_wrap .contact_form .data_field .left_column, .container .contacts .contacts_wrap .contact_form .data_field .right_column {
+    width: 100%;
+  }
+  .container .contacts .contacts_wrap .contact_form .message_field {
+    width: 100%;
+  }
+  .container footer .footer_wrap {
+    flex-direction: column;
+    .footer_project_img a {
+      margin: 0 auto;
+    }
+    .office {
+      margin-top: 40px;
+      .text {
+        margin-top: 4px;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .container .header .header_wrap .header_title {
+    font-size: 40px;
+  }
+  .container .services .services_wrap .block_name .line {
+    height: 60px;
+  }
+  .container .services .services_wrap .services_title {
+    font-size: 30px;
+  }
+  .container .services {
+    padding-bottom: 80px;
+    .services_wrap .services_content {
+       flex-direction: column;
+       align-items: center;
+       .content {
+         margin-top: 30px;
+       }
+     }
+  }
+  .container .portfolio .portfolio_wrap .carousel .carousel-item {
+    .left_column {
+      .line {
+        height: 60px;
+      }
+      .slide_name {
+        font-size: 10px;
+        margin-top: 4px;
+      }
+      .project_name {
+        font-size: 30px;
+        top: 100px;
+      }
+    }
+    .right_column {
+      .line {
+        height: 60px;
+      }
+      a:after {
+        display: none;
+      }
+    }
+  }
+  .container .portfolio .portfolio_wrap .carousel .carousel-wrapper {
+    height: 269px;
+  }
+  .container .testimonials .testimonials_wrap .block_name .line {
+    height: 60px;
+  }
+  .container .testimonials .testimonials_wrap .logos {
+    flex-direction: column;
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  .container .testimonials {
+    padding-bottom: 80px;
+    .testimonials_wrap .testimonials_carousel .carousel-wrapper {
+      height: 400px;
+      margin: 60px auto 0;
+    }
+  }
+  .container .testimonials .testimonials_wrap .testimonials_title {
+    font-size: 30px;
+  }
+  .container .team {
+    padding-bottom: 40px;
+  }
+  .container .team .team_wrap .block_name .line {
+    height: 60px;
+  }
+  .container .team .team_wrap .team_title {
+    font-size: 30px;
+  }
+  .container .team .team_wrap .team_field {
+    margin-top: 60px;
+  }
+  .container .team .team_wrap .team_field .person .person_info, .container .team .team_wrap .team_field .person .person_id {
+    width: 50%;
+  }
+  .container .contacts .contacts_wrap .block_name .line {
+    height: 60px;
+  }
+  .container .contacts .contacts_wrap .contacts_title {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 320px) {
+
+}

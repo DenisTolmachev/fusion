@@ -1,0 +1,135 @@
+.container {
+  .contacts {
+    background-color: #343434;
+    padding-bottom: 80px;
+    .contacts_wrap {
+      .block_name{
+        color: #f7ac53;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        p {
+          margin-top: 23px;
+        }
+        .line {
+          height: 125px;
+          width: 1px;
+          margin: 0 auto;
+          background-image: url("/img/line_1px.png");
+        }
+      }
+      .contacts_title {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Merriweather', serif;
+        font-size: 40px;
+        padding: 0 170px 0 170px;
+        line-height: 1.6;
+        margin-top: 26px;
+        letter-spacing: 0.3px;
+      }
+      .contact_form {
+        display: flex;
+        flex-direction: column;
+        min-height: 500px;
+        max-width: 751px;
+        margin: 73px auto 0;
+        padding: 2px 57px 0 57px;
+        background-color: #171717; /* layer fill content */
+        -moz-box-shadow: 3px 4px 15px rgba(0,0,0,.3); /* drop shadow */
+        -webkit-box-shadow: 3px 4px 15px rgba(0,0,0,.3); /* drop shadow */
+        box-shadow: 3px 4px 15px rgba(0,0,0,.3); /* drop shadow */
+        .data_field {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .left_column, .right_column {
+            width: 275px;
+          }
+        }
+        .message_field {
+          margin-top: 27px;
+        }
+        .inputLi {
+          position: relative;
+          width: 100%;
+          margin-top: 57px;
+        }
+        input {
+          outline: none;
+          border: none;
+          border-bottom: 1px solid #5b5b5b;
+          width: 100%;
+          background-color: #171717;
+          color: #ffffff;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          padding-bottom: 21px;
+        }
+        input::-webkit-input-placeholder {
+          color: #ffffff;
+          text-transform: uppercase;
+          padding-bottom: 21px;
+        }
+        input::-moz-placeholder {
+          color: #ffffff;
+          text-transform: uppercase;
+          padding-bottom: 21px;
+        }
+        input:-moz-placeholder {
+          color: #ffffff;
+          text-transform: uppercase;
+          padding-bottom: 21px;
+        }
+        input:-ms-input-placeholder {
+          color: #ffffff;
+          text-transform: uppercase;
+          padding-bottom: 21px;
+        }
+        input:focus::-webkit-input-placeholder {color: transparent}
+        input:focus::-moz-placeholder          {color: transparent}
+        input:focus:-moz-placeholder           {color: transparent}
+        input:focus:-ms-input-placeholder      {color: transparent}
+        input:focus ~ .username_focus{
+          border-color: #fdb95f;
+          display: block;
+        }
+        .username_focus {
+          display: none;
+          position: absolute;
+          color: #fdb85f;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 11px;
+          text-transform: uppercase;
+          top: -11px;
+        }
+
+        .button_field {
+          margin: 57px auto 0;
+          button {
+            outline: none;
+            color: #232323;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 17px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: #fdb95f;
+            border: none;
+            cursor: pointer;
+            padding: 18px 40px;
+            p{
+              span {
+                font-weight: 600;
+              }
+            }
+          }
+          button:hover {
+            background-color: #f59519;
+          }
+        }
+      }
+    }
+  }
+}
