@@ -58,6 +58,7 @@ table {
 
 /* line 44, ../sass/layout/_base.scss */
 *, :after, :before, :hover {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -91,7 +92,6 @@ input[type="search"]::-webkit-search-results-decoration {
   -o-appearance: none;
   appearance: none;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -116,6 +116,7 @@ body {
 /* line 2, ../sass/layout/_header.scss */
 .container .header {
   background: url("/img/header_bg.png") center no-repeat;
+  -webkit-background-size: cover;
   background-size: cover;
   position: relative;
 }
@@ -180,9 +181,22 @@ body {
 }
 /* line 59, ../sass/layout/_header.scss */
 .container .header .header_wrap .header_nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 98px;
 }
@@ -268,8 +282,17 @@ body {
 }
 /* line 33, ../sass/layout/_services.scss */
 .container .services .services_wrap .services_content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   color: #ffffff;
 }
@@ -359,6 +382,9 @@ body {
 }
 /* line 35, ../sass/layout/_portfolio.scss */
 .container .portfolio .portfolio_wrap .carousel .carousel-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   width: 20%;
 }
@@ -407,8 +433,18 @@ body {
 /* line 74, ../sass/layout/_portfolio.scss */
 .container .portfolio .portfolio_wrap .carousel .carousel-item .right_column {
   width: 16%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
   margin-left: 26px;
 }
@@ -466,6 +502,7 @@ body {
 .container .portfolio .portfolio_wrap .carousel .carousel-label label {
   width: 28px;
   height: 3px;
+  -webkit-border-radius: 10px;
   border-radius: 10px;
   margin: 0 22px;
   background-color: #5c5c5c;
@@ -555,9 +592,22 @@ body {
 }
 /* line 33, ../sass/layout/_testimonials.scss */
 .container .testimonials .testimonials_wrap .logos {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 102px;
 }
@@ -576,7 +626,6 @@ body {
   position: relative;
   overflow: hidden;
   background-color: #171717;
-  -moz-box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.3);
   /* drop shadow */
   -webkit-box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.3);
   /* drop shadow */
@@ -602,8 +651,18 @@ body {
 }
 /* line 73, ../sass/layout/_testimonials.scss */
 .container .testimonials .testimonials_wrap .testimonials_carousel .carousel-item .carousel_content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 /* line 77, ../sass/layout/_testimonials.scss */
@@ -618,6 +677,9 @@ body {
 }
 /* line 86, ../sass/layout/_testimonials.scss */
 .container .testimonials .testimonials_wrap .testimonials_carousel .carousel-item .carousel_content .author_field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 /* line 88, ../sass/layout/_testimonials.scss */
@@ -669,6 +731,7 @@ body {
 .container .testimonials .testimonials_wrap .testimonials_carousel .carousel-label label {
   width: 28px;
   height: 3px;
+  -webkit-border-radius: 10px;
   border-radius: 10px;
   margin: 0 22px;
   background-color: #5c5c5c;
@@ -762,8 +825,18 @@ body {
 }
 /* line 35, ../sass/layout/_team.scss */
 .container .team .team_wrap .team_field .person {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   font-family: 'Open Sans', sans-serif;
 }
@@ -785,11 +858,19 @@ body {
   position: absolute;
   top: 86px;
   left: -62px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 /* line 55, ../sass/layout/_team.scss */
 .container .team .team_wrap .team_field .person .person_info .person_id_vertical .vertical_wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 /* line 59, ../sass/layout/_team.scss */
@@ -816,6 +897,8 @@ body {
   height: 67px;
   width: 68px;
   background-image: url("/img/person_info_corner_line.png");
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
   top: -8px;
   left: -14px;
@@ -910,7 +993,14 @@ body {
 }
 /* line 33, ../sass/layout/_contacts.scss */
 .container .contacts .contacts_wrap .contact_form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 500px;
   max-width: 751px;
@@ -918,7 +1008,6 @@ body {
   padding: 2px 57px 0 57px;
   background-color: #171717;
   /* layer fill content */
-  -moz-box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.3);
   /* drop shadow */
   -webkit-box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.3);
   /* drop shadow */
@@ -927,8 +1016,18 @@ body {
 }
 /* line 44, ../sass/layout/_contacts.scss */
 .container .contacts .contacts_wrap .contact_form .data_field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 /* line 48, ../sass/layout/_contacts.scss */
@@ -1045,7 +1144,14 @@ body {
 }
 /* line 5, ../sass/layout/_footer.scss */
 .container footer .footer_wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   max-width: 778px;
   padding-top: 45px;
@@ -1077,7 +1183,12 @@ body {
 }
 /* line 32, ../sass/layout/_footer.scss */
 .container footer .footer_wrap .office .social_icons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   margin-left: 4px;
   margin-top: 25px;
@@ -1144,7 +1255,14 @@ body {
 
   /* line 43, ../sass/media/_media.scss */
   .container .team .team_wrap .team_field .person {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -1178,8 +1296,15 @@ body {
 @media all and (max-width: 720px) {
   /* line 67, ../sass/media/_media.scss */
   .container .contacts .contacts_wrap .contact_form .data_field {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin: 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -1195,6 +1320,10 @@ body {
 
   /* line 78, ../sass/media/_media.scss */
   .container footer .footer_wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   /* line 80, ../sass/media/_media.scss */
@@ -1233,7 +1362,14 @@ body {
   }
   /* line 105, ../sass/media/_media.scss */
   .container .services .services_wrap .services_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
   }
   /* line 108, ../sass/media/_media.scss */
@@ -1276,6 +1412,10 @@ body {
 
   /* line 142, ../sass/media/_media.scss */
   .container .testimonials .testimonials_wrap .logos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   /* line 144, ../sass/media/_media.scss */
